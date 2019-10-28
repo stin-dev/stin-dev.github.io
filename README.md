@@ -29,7 +29,7 @@ No one except me can use this app.
 
 ### thinking-generator
 
-Tweet with an image with your Twitter icon and a text that is "YOUR NAME thought ~ .".
+Tweet a text you think with an image containing your Twitter icon and a text that is "YOUR NAME thought ~ .".
 
 [Repository](https://github.com/stin-dev/thinking-generator)
 

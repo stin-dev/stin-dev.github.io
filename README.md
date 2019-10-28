@@ -26,3 +26,11 @@ No one except me can use this app.
 [Repository](https://github.com/stin-dev/admin-hello-blogs)
 
 [web site](https://admin-hello-blogs.firebaseapp.com)
+
+### thinking-generator
+
+Tweet with an image with your Twitter icon and a text that is "YOUR NAME thought ~ .".
+
+[Repository](https://github.com/stin-dev/thinking-generator)
+
+[web site](https://thinking-generator.web.app)

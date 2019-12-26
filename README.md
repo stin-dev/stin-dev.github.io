@@ -1,6 +1,3 @@
-# stin-dev.github.io
-stin-dev's user page.
-
 # stin-dev's Application
 
 ### Hello Splatoon Bot

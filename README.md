@@ -31,3 +31,7 @@ Tweet a text you think with an image containing your Twitter icon and a text tha
 [Repository](https://github.com/stin-dev/thinking-generator)
 
 [web site](https://thinking-generator.web.app)
+
+# Blog
+
+https://qiita.com/stin_dev

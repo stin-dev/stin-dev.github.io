@@ -16,14 +16,6 @@ You can access Hello!Project member blogs via this app.
 
 [web site](https://hello-blogs.firebaseapp.com)
 
-### admin-hello-blogs
-
-No one except me can use this app.
-
-[Repository](https://github.com/stin-dev/admin-hello-blogs)
-
-[web site](https://admin-hello-blogs.firebaseapp.com)
-
 ### thinking-generator
 
 Tweet a text you think with an image containing your Twitter icon and a text that is "YOUR NAME thought ~ .".

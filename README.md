@@ -32,6 +32,14 @@ Tweet a text you think with an image containing your Twitter icon and a text tha
 
 [web site](https://thinking-generator.web.app)
 
+### Population Chart
+
+This is a Single Page Application that show a population chart by prefectures.
+
+[Repository](https://github.com/stin-dev/PopulationChart)
+
+[web site](https://stin-dev.github.io/PopulationChart)
+
 # Blog
 
 https://qiita.com/stin_dev

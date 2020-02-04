@@ -1,37 +1,44 @@
-# stin-dev's Application
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Hello Splatoon Bot
+## Available Scripts
 
-Send names of Splatoon Weapon to your Discord channel at random.
+In the project directory, you can run:
 
-[Repository](https://github.com/stin-dev/hello-splatoon-bot)
+### `npm start`
 
-[web site](https://stin-dev.github.io/hello-splatoon-bot)
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Hello!Blog
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-You can access Hello!Project member blogs via this app.
+### `npm test`
 
-[Repository](https://github.com/stin-dev/hello-blog-reader)
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-[web site](https://hello-blogs.firebaseapp.com)
+### `npm run build`
 
-### thinking-generator
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Tweet a text you think with an image containing your Twitter icon and a text that is "YOUR NAME thought ~ .".
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-[Repository](https://github.com/stin-dev/thinking-generator)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-[web site](https://thinking-generator.web.app)
+### `npm run eject`
 
-### Population Chart
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-This is a Single Page Application that show a population chart by prefectures.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-[Repository](https://github.com/stin-dev/PopulationChart)
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-[web site](https://stin-dev.github.io/PopulationChart)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-# Blog
+## Learn More
 
-https://qiita.com/stin_dev
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).

@@ -1,11 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
 import './App.css';
+import SnsLink from "./components/SnsLink";
 
 const App = () => {
   return (
     <div className="App">
       <div className="App-container">
+        <div id="App-links">
+          <ul>
+            <li>
+              <SnsLink
+                color="rgb(255, 255, 255)"
+                backgroundColor="rgb(29, 161, 242)"
+                href="https://twitter.com/stin_factory">
+                <FontAwesomeIcon icon={faTwitter} />
+              </SnsLink>
+            </li>
+            <li>
+              <SnsLink
+                color="rgb(255, 255, 255)"
+                backgroundColor="#24292e"
+                href="https://github.com/stin-dev">
+                <FontAwesomeIcon icon={faGithub} />
+              </SnsLink>
+            </li>
+          </ul>
+        </div>
         <section className="main-content">
           <h1 id="stin-devs-application">stin-dev’s Application</h1>
 

@@ -9,6 +9,7 @@
     width: 100%;
     color: white;
     font-family: 'Quattrocento', serif;
+    line-height: 1.6;
 }
 
 #container {
@@ -72,7 +73,11 @@ main {
 }
 
 .product {
-    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.product-name{
+
 }
 
 .product-links {

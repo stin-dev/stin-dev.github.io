@@ -45,7 +45,8 @@ main {
 }
 
 .main-content h1 {
-    margin: 20px 0;
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 
 .main-content h1::first-letter {
@@ -73,11 +74,15 @@ main {
 }
 
 .product {
-    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
-.product-name{
+.product-name {
+    font-size: 21px;
+}
 
+.product-description {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .product-links {
@@ -98,9 +103,9 @@ main {
     color: rgba(233, 121, 255, 0.7);
 }
 
-.link-button:hover{
+.link-button:hover {
     color: rgba(233, 121, 255, 1.0);
-    background-color:  rgba(233, 121, 255, 0.05);
+    background-color: rgba(233, 121, 255, 0.05);
 }
 
 .blogs {
@@ -172,5 +177,8 @@ footer {
     }
     .main-content h1 {
         font-size: 25px;
+    }
+    .product-name {
+        font-size: 18px;
     }
 }

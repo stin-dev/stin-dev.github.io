@@ -1,0 +1,184 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#page {
+    background-color: #2C2F33;
+    width: 100%;
+    color: white;
+    font-family: 'Quattrocento', serif;
+    line-height: 1.6;
+}
+
+#container {
+    max-width: 900px;
+    min-height: 100vh;
+    margin: auto;
+    padding: 20px 50px;
+}
+
+header {
+    padding: 30px 0px;
+    text-align: center;
+    border-radius: 7px;
+    border: double rgba(199, 199, 199, 0.692);
+    border-width: 6px 0;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    font-size: 40px;
+}
+
+main {
+    padding: 30px 0px;
+}
+
+.main-content {
+    padding: 20px 0;
+}
+
+.main-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.main-content h1::first-letter {
+    color: rgb(233, 121, 255);
+}
+
+.aboutme {
+    text-align: center;
+}
+
+.aboutme-details {
+    margin: auto;
+}
+
+.aboutme-details-title {
+    text-align: left;
+}
+
+.skills {
+    text-align: center;
+}
+
+.products {
+    padding: 0 20px;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+.product-name {
+    font-size: 21px;
+}
+
+.product-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.product-links {
+    text-align: center;
+}
+
+.link-button {
+    display: inline-block;
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    border: solid 1px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    border-radius: 2px;
+    transition: 0.2s;
+    color: rgba(233, 121, 255, 0.7);
+}
+
+.link-button:hover {
+    color: rgba(233, 121, 255, 1.0);
+    background-color: rgba(233, 121, 255, 0.05);
+}
+
+.blogs {
+    text-align: center;
+}
+
+.link-qiita {
+    color: #55c500;
+    border-color: #55c500;
+}
+
+.link-qiita:hover {
+    color: white;
+    background-color: #55c500;
+}
+
+.link-note {
+    color: #41C9B4;
+    border-color: #41C9B4;
+}
+
+.link-note:hover {
+    color: white;
+    background-color: #41C9B4;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.sns-link {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: lightgray;
+    line-height: 50px;
+    font-size: 25px;
+    transition: .3s;
+    margin: 0px 7px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .12), 0 2px 2px 0 rgba(0, 0, 0, .24);
+}
+
+.sns-link:hover {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
+}
+
+.sns-link-twitter:hover {
+    color: white;
+    background-color: rgb(29, 161, 242);
+}
+
+.sns-link-github:hover {
+    color: white;
+    background-color: #24292e;
+}
+
+@media (max-width: 550px) {
+    header h1 {
+        font-size: 50px;
+    }
+    header h2 {
+        font-size: 25px;
+    }
+    .main-content h1 {
+        font-size: 25px;
+    }
+    .product-name {
+        font-size: 18px;
+    }
+}
